@@ -1,0 +1,51 @@
+.dish-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  .dish-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: Edu AU VIC WA NT Pre;
+  }
+  
+  .dish-thumbnail {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  .dish-instructions, .dish-ingredients, .dish-video {
+    margin-top: 20px;
+  }
+  
+  .dish-instructions h2, .dish-ingredients h2, .dish-video h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .dish-ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .dish-video a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .dish-video a:hover {
+    text-decoration: underline;
+  }
+  
